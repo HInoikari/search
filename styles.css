@@ -14,6 +14,10 @@
             font-size: 100%;
             vertical-align: baseline;
             text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
 
         #link1, a   {
@@ -54,6 +58,11 @@
             text-align: center;
             cursor: pointer;
             user-select: none;
+
+        }
+
+        .button2.-block {
+            display: block; margin: 11px auto;
         }
 
         .redwords {
@@ -142,9 +151,14 @@
         }
 
         .nflex {
+
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
 
+        }
+        .btnwraper {
+            display: flex;
+            justify-content: center;
         }
